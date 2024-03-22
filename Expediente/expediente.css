@@ -83,9 +83,6 @@ th, td {
     color: #EFE6CD;
     font-family: 'Arial', sans-serif;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-
-
-
 }
 
 thead {
@@ -98,7 +95,40 @@ th {
 
 }
 
+/* Estilos para el botón de regresar */
+.button {
+    font-family: 'Arial', sans-serif;
+    font-size: medium; /* Tamaño de fuente más pequeño */
+    padding: 10px 20px; /* Padding más pequeño */
+    background-color: #D9D9D9;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto; 
+    width: fit-content; 
+}
+
+.button {
+    background-color: #b0afaf; 
+}
+
 a{
     text-decoration: none; 
 
+}
+
+.agregarNuevo{
+    font-family: 'Arial', sans-serif;
+    font-size: medium; /* Tamaño de fuente más pequeño */
+    padding: 10px 20px; /* Padding más pequeño */
+    background-color: #D9D9D9;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; 
+    margin-left: auto; /* Mueve el botón de cerrar sesión al extremo derecho */
+    width: fit-content; 
 }

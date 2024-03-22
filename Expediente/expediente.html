@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expediente clinico electronico</title>
-    <link rel="stylesheet" href="mnuPrincipal.css">
+    <link rel="stylesheet" href="expediente.css">
 </head>
 
 <body>
@@ -17,34 +17,42 @@
         <a href="./../Inicio de sesion/iniciosesion.html">
             <img src="./../img/cerrarsesion.png" alt="cerrar sesion" class="logo-cerrar-sesion">
         </a>
-    </div>
     </header>
     
     <div class="body-styles">
-      <h2>Bienvenido Dr.............</h2>
-      <h2>Citas agendadas para el dia de hoy:</h2>
+      <h2>Paciente.............</h2>
+      <h2>Expediente No........</h2>
+      <div >
+        <a href="./../Huella Digital/huellaDigital.html"><button class="agregarNuevo">Agregar Nuevo</button></a>
+    </div>   
       <div class="tabla-container">
         <table>
             <thead>
                 <tr>
-                    <th>Nombre paciente</th>
-                    <th>Motivo consulta</th>
-                    <th>Expediente</th>
+                    <th>Nombre</th>
+                    <th>Tipo de Archivo</th>
+                    <th>Fecha</th>
+                    <th>Visualizar</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>John Doe</td>
-                    <td>Dolor de cabeza</td>
-                    <td><a href="./../Expediente/expediente.html">123456</a></td>
+                    <td>Rx Abdomen</td>
+                    <td>.jpg</td>
+                    <td>10 FEB 2024</td>
+                    <td><a href="./../Expediente/expediente.html">Ver Documento</a></td>
                 </tr>
                 <tr>
-                    <td>Jane Smith</td>
-                    <td>Fiebre y tos</td>
-                    <td><a href="./../Expediente/expediente.html">654321</a></td>
+                    <td>Analisis de Sangre</td>
+                    <td>.docx</td>
+                    <td>15 FEB 2024</td>
+                    <td><a href="./../Expediente/expediente.html">Ver Documento</a></td>
                 </tr>
             </tbody>
         </table>
+    </div>
+    <div >
+        <a href="./../Menu principal (Profesional Medico)/mnuPrincipal.html"><button class="button">Regresar</button></a>
     </div>    
     </div>
     <footer>
